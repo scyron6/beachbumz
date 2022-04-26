@@ -18,49 +18,49 @@ const NFTs = ({ mints, getMints }) => {
           name={'Huge Barrel'}
           getMints={getMints}
           image={'IMG_0272.JPG'}
-          mints={mints.length !== 0 ? mints[0].toNumber() : 0}
+          mints={mints.length !== 0 ? mints[0].toNumber() : '?'}
         />
         <NFT
           name={'Solitary'}
           getMints={getMints}
           image={'IMG_0286.JPG'}
-          mints={mints.length !== 0 ? mints[5].toNumber() : 0}
+          mints={mints.length !== 0 ? mints[5].toNumber() : '?'}
         />
         <NFT
           name={'Pipeline?'}
           getMints={getMints}
           image={'IMG_0283.JPG'}
-          mints={mints.length !== 0 ? mints[4].toNumber() : 0}
+          mints={mints.length !== 0 ? mints[4].toNumber() : '?'}
         />
         <NFT
           name={'Big Left'}
           getMints={getMints}
           image={'IMG_0284.JPG'}
-          mints={mints.length !== 0 ? mints[1].toNumber() : 0}
+          mints={mints.length !== 0 ? mints[1].toNumber() : '?'}
         />
         <NFT
           name={'Board'}
           getMints={getMints}
           image={'IMG_0285.JPG'}
-          mints={mints.length !== 0 ? mints[2].toNumber() : 0}
+          mints={mints.length !== 0 ? mints[2].toNumber() : '?'}
         />
         <NFT
           name={'Peak'}
           getMints={getMints}
           image={'IMG_0282 2.JPG'}
-          mints={mints.length !== 0 ? mints[3].toNumber() : 0}
+          mints={mints.length !== 0 ? mints[3].toNumber() : '?'}
         />
         <NFT
           name={'Two Friends'}
           getMints={getMints}
           image={'IMG_0288.JPG'}
-          mints={mints.length !== 0 ? mints[6].toNumber() : 0}
+          mints={mints.length !== 0 ? mints[6].toNumber() : '?'}
         />
         <NFT
           name={'Waterline'}
           getMints={getMints}
           image={'IMG_0290.JPG'}
-          mints={mints.length !== 0 ? mints[7].toNumber() : 0}
+          mints={mints.length !== 0 ? mints[7].toNumber() : '?'}
         />
       </main>
     </div>
